@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 抓包与样本产物
+*.pcap
+*.pcapng
+*.har
+flows/
+ca/
+output/
+samples/
+
+# 签名材料，绝不入库
+*.p12
+*.mobileprovision
+*.cer
+*.pem
+*.key
+certs/
